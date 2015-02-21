@@ -1,6 +1,6 @@
 === TinyMCE Bigger Color Grid ===
 Contributors: kungtiger
-Requires at least: 2.5
+Requires at least: 2.6
 Tested up to: 4.1
 Stable tag: 1.0
 Tags: bigger, color, colour, editor, expanded, extended, formatting, grid, more, picker, tinymce
