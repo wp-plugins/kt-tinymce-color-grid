@@ -1,0 +1,112 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kt-tinymce-color-grid\n"
+"POT-Creation-Date: 2015-02-21 15:02+0100\n"
+"PO-Revision-Date: 2015-02-21 15:05+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../kt-tinymce-color-grid.php:69
+msgid "Red"
+msgstr "Rot"
+
+#: ../kt-tinymce-color-grid.php:69
+msgid "Orange"
+msgstr "Orange"
+
+#: ../kt-tinymce-color-grid.php:69
+msgid "Butter"
+msgstr "Butter"
+
+#: ../kt-tinymce-color-grid.php:70
+msgid "Yellow"
+msgstr "Gelb"
+
+#: ../kt-tinymce-color-grid.php:70
+msgid "Lime"
+msgstr "Limette"
+
+#: ../kt-tinymce-color-grid.php:70
+msgid "Grass"
+msgstr "Gras"
+
+#: ../kt-tinymce-color-grid.php:71
+msgid "Green"
+msgstr "Grün"
+
+#: ../kt-tinymce-color-grid.php:71
+msgid "Teal Sea"
+msgstr "Seegrün"
+
+#: ../kt-tinymce-color-grid.php:71
+msgid "Aquamarine"
+msgstr "Aquamarin"
+
+#: ../kt-tinymce-color-grid.php:72
+msgid "Turquoise"
+msgstr "Türkis"
+
+#: ../kt-tinymce-color-grid.php:72
+msgid "Cornflower"
+msgstr "Kornblume"
+
+#: ../kt-tinymce-color-grid.php:72
+msgid "Sky"
+msgstr "Himmelblau"
+
+#: ../kt-tinymce-color-grid.php:73
+msgid "Blue"
+msgstr "Blau"
+
+#: ../kt-tinymce-color-grid.php:73
+msgid "Violet"
+msgstr "Violett"
+
+#: ../kt-tinymce-color-grid.php:73
+msgid "Plum"
+msgstr "Pflaume"
+
+#: ../kt-tinymce-color-grid.php:74
+msgid "Magenta"
+msgstr "Magenta"
+
+#: ../kt-tinymce-color-grid.php:74
+msgid "Pink"
+msgstr "Pink"
+
+#: ../kt-tinymce-color-grid.php:74
+msgid "Raspberry"
+msgstr "Himbeere"
+
+#: ../kt-tinymce-color-grid.php:84
+#, php-format
+msgid "%s (%d%% darker)"
+msgstr "%s (%d%% dunkler)"
+
+#: ../kt-tinymce-color-grid.php:86
+#, php-format
+msgid "%s (%d%% brighter)"
+msgstr "%s (%d%% heller)"
+
+#: ../kt-tinymce-color-grid.php:93
+msgid "Black"
+msgstr "Schwarz"
+
+#: ../kt-tinymce-color-grid.php:95
+msgid "White"
+msgstr "Weiß"
+
+#: ../kt-tinymce-color-grid.php:97
+#, php-format
+msgid "%d%% Gray"
+msgstr "%d%% Grau"
