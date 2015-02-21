@@ -3,7 +3,7 @@ Contributors: kungtiger
 Requires at least: 2.6
 Tested up to: 4.1
 Stable tag: 1.0
-Tags: bigger, color, colour, editor, expanded, extended, formatting, grid, more, picker, tinymce
+Tags: bigger, chooser, color, colour, editor, expanded, extended, formatting, grid, more, picker, tinymce
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
