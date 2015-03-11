@@ -1,10 +1,10 @@
 <?php
 
 /*
- * Plugin Name: TinyMCE Bigger Color Grid
+ * Plugin Name: TinyMCE Color Grid
  * Plugin URI: https://wordpress.org/plugins/kt-tinymce-color-grid
  * Description: Extends the TinyMCE Color Picker with a lot more colors to choose from.
- * Version: 1.0
+ * Version: 1.1
  * Author: Daniel Schneider
  * Author URI: http://profiles.wordpress.org/kungtiger
  * License: GPL2
@@ -13,8 +13,10 @@
  * Text Domain: kt-tinymce-color-grid
  */
 
+define('KT_TINYMCE_COLOR_GRID_VERSION', '1.1');
+
 add_action('plugins_loaded', 'kt_tinymce_color_grid_textdomain');
-add_action('admin_enqueue_scripts', 'kt_tinymce_color_grid_style');
+add_action('after_wp_tiny_mce', 'kt_tinymce_color_grid_style');
 add_filter('tiny_mce_before_init', 'kt_tinymce_color_grid');
 
 function kt_tinymce_color_grid_textdomain() {
@@ -22,7 +24,7 @@ function kt_tinymce_color_grid_textdomain() {
 }
 
 function kt_tinymce_color_grid_style() {
-    wp_enqueue_style('kt-tinymce-color-grid', plugins_url('kt-tinymce-color-grid.css', __FILE__));
+    echo '<link rel="stylesheet" id="kt_tinymce_color_grid_css" href="' . plugins_url('kt-tinymce-color-grid.css', __FILE__) . '?ver=' . KT_TINYMCE_COLOR_GRID_VERSION . '" type="text/css" media="all" />';
 }
 
 function kt_tinymce_color_grid($init) {
@@ -73,7 +75,8 @@ function kt_tinymce_color_grid($init) {
         __('Magenta', 'kt-tinymce-color-grid'), __('Pink', 'kt-tinymce-color-grid'), __('Raspberry', 'kt-tinymce-color-grid'),
     );
     $rows = count($lumas);
-    $step = 1 / ($rows - 2);
+    $grays = $rows - 2;
+    $step = 1 / $grays;
     $map = array();
     foreach ($lumas as $i => $luma) {
         foreach ($colors as $j => $color) {
@@ -87,16 +90,17 @@ function kt_tinymce_color_grid($init) {
             }
             $map[] = '"' . hex(luma($color, $luma)) . '","' . $hint . '"';
         }
-        if ($i == 0) {
-            $name = __('Black', 'kt-tinymce-color-grid');
-        } else if ($i == $rows - 2) {
-            $name = __('White', 'kt-tinymce-color-grid');
-        } else {
-            $name = sprintf(__('%d%% Gray', 'kt-tinymce-color-grid'), round(100 * $i / ($rows - 2)));
+        if ($i <= $grays) {
+            if ($i == 0) {
+                $name = __('Black', 'kt-tinymce-color-grid');
+            } else if ($i == $grays) {
+                $name = __('White', 'kt-tinymce-color-grid');
+            } else {
+                $name = sprintf(__('%d%% Gray', 'kt-tinymce-color-grid'), round(100 * $i / $grays));
+            }
+            $map[] = '"' . str_repeat(p2hex($step * $i), 3) . '","' . $name . '"';
         }
-        $map[] = '"' . str_repeat(p2hex($step * $i), 3) . '","' . $name . '"';
     }
-    array_pop($map);
     $init['textcolor_map'] = '[' . implode(',', $map) . ']';
     $init['textcolor_cols'] = count($colors) + 1;
     $init['textcolor_rows'] = $rows;

@@ -1,9 +1,9 @@
-=== TinyMCE Bigger Color Grid ===
+=== TinyMCE Color Grid ===
 Contributors: kungtiger
 Requires at least: 2.5
 Tested up to: 4.1
-Stable tag: 1.0
-Tags: bigger, color, colour, editor, expanded, extended, formatting, grid, more, picker, tinymce
+Stable tag: 1.1
+Tags: bigger, chooser, color, colour, editor, expanded, extended, formatting, grid, more, pallete, picker, tinymce
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,7 +12,6 @@ Extends the TinyMCE color picker with a lot more colors to choose from.
 == Description ==
 
 Expands the Color Picker for choosing a text or background color found inside the TinyMCE toolbar with a lot more colors to choose from.  
-I have included some colors from the Tango Desktop Project as well.
 
 == Installation ==
 
@@ -26,7 +25,7 @@ I have included some colors from the Tango Desktop Project as well.
 **Through WordPress' Plugin Search**
 
 1. Goto your WordPress and open *Plugins* > *Install*
-2. Search for *TinyMCE Extended Color Grid*
+2. Search for *TinyMCE Color Grid*
 3. Click install and activate the plugin
 4. Enjoy
 
@@ -48,10 +47,17 @@ If you have a question please contact me and we'll see what we can do
 
 == Changelog ==
 
+= 1.1 =
+- Stylesheet gets enqueued only on pages with a TinyMCE
+- Reduced overhead
+
 = 1.0 =
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.1 =
+Just a few performance improvements
 
 = 1.0 =
 Initial release.
