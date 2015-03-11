@@ -43,7 +43,7 @@ If you have a question please contact me and we'll see what we can do
 
 == Screenshots ==
 
-1. A lot more colors to chose from
+1. A lot more colors to choose from
 
 == Changelog ==
 
