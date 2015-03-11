@@ -1,0 +1,126 @@
+# Copyright (C) 2015 TinyMCE Bigger Color Grid
+# This file is distributed under the same license as the TinyMCE Bigger Color Grid package.
+msgid ""
+msgstr ""
+"Project-Id-Version: TinyMCE Bigger Color Grid 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/kt-tinymce-color-"
+"grid\n"
+"POT-Creation-Date: 2015-02-21 15:37:38+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: kt-tinymce-color-grid.php:68
+msgid "Red"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:68
+msgid "Orange"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:68
+msgid "Butter"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:69
+msgid "Yellow"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:69
+msgid "Lime"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:69
+msgid "Grass"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:70
+msgid "Green"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:70
+msgid "Teal Sea"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:70
+msgid "Aquamarine"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:71
+msgid "Turquoise"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:71
+msgid "Cornflower"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:71
+msgid "Sky"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:72
+msgid "Blue"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:72
+msgid "Violet"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:72
+msgid "Plum"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:73
+msgid "Magenta"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:73
+msgid "Pink"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:73
+msgid "Raspberry"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:82
+msgid "%s (%d%% darker)"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:84
+msgid "%s (%d%% brighter)"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:91
+msgid "Black"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:93
+msgid "White"
+msgstr ""
+
+#: kt-tinymce-color-grid.php:95
+msgid "%d%% Gray"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "TinyMCE Bigger Color Grid"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/kt-tinymce-color-grid"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Extends the TinyMCE Color Picker with a lot more colors to choose from."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Daniel Schneider"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://profiles.wordpress.org/kungtiger"
+msgstr ""
