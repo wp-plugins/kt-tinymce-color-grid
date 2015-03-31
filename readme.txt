@@ -2,7 +2,7 @@
 Contributors: kungtiger
 Requires at least: 2.5
 Tested up to: 4.1
-Stable tag: 1.1
+Stable tag: 1.2
 Tags: bigger, chooser, color, colour, editor, expanded, extended, formatting, grid, more, pallete, picker, tinymce
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -47,6 +47,9 @@ If you have a question please contact me and we'll see what we can do
 
 == Changelog ==
 
+= 1.2 =
+Fixes an error when using more than one TinyMCE
+
 = 1.1 =
 - Stylesheet gets enqueued only on pages with a TinyMCE
 - Reduced overhead
@@ -55,6 +58,9 @@ If you have a question please contact me and we'll see what we can do
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.2 =
+Fixes an error when using more than one TinyMCE
 
 = 1.1 =
 Just a few performance improvements
