@@ -1,23 +1,10 @@
-.mce-grid {
-    border-spacing: 0 !important;
+.button.dashicons-before::before {
+    margin: 5px 2px 0 2px;
 }
-.mce-grid td {
-    padding: 0;
+
+#custom_colors {
+    margin-bottom: 1.5em;
 }
-.mce-grid td:last-child {
-    padding-left: 3px;
-}
-.mce-grid td div {
-    border-style: solid none none solid !important;
-}
-.mce-grid td:nth-child(18) div,
-.mce-grid td:last-child div {
-    border-right-style: solid !important;
-}
-.mce-grid tr:nth-child(13) td div,
-.mce-grid tr:last-child td div {
-    border-bottom-style: solid !important;
-}
-.mce-grid tr:nth-child(14) td {
-    padding-top: 4px;
+#custom_colors > div {
+    
 }

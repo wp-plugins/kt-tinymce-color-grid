@@ -2,7 +2,7 @@
 Contributors: kungtiger
 Requires at least: 2.5
 Tested up to: 4.2
-Stable tag: 1.2
+Stable tag: 1.3
 Tags: bigger, chooser, color, colour, editor, expanded, extended, formatting, grid, more, pallete, picker, tinymce
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -11,7 +11,9 @@ Extends the TinyMCE color picker with a lot more colors to choose from.
 
 == Description ==
 
-Expands the Color Picker for choosing a text or background color found inside the TinyMCE toolbar with a lot more colors to choose from.  
+Expands the Color Picker for choosing a text or background color found inside the TinyMCE toolbar with a lot more colors to choose from.
+
+You can also define custom colors with a name of your choice. These colors are persistent and available in every picker. You can specify these colors via the settings menu.
 
 == Installation ==
 
@@ -47,6 +49,9 @@ If you have a question please contact me and we'll see what we can do
 
 == Changelog ==
 
+= 1.3 =
+Added support for custom persistent colors
+
 = 1.2 =
 Fixes an error when using more than one TinyMCE
 
@@ -58,6 +63,9 @@ Fixes an error when using more than one TinyMCE
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.3 =
+Added support for custom persistent colors
 
 = 1.2 =
 Fixes an error when using more than one TinyMCE
