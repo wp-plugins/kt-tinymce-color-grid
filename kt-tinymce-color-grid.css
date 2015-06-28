@@ -1,0 +1,10 @@
+.button.dashicons-before::before {
+    margin: 5px 2px 0 2px;
+}
+
+#custom_colors {
+    margin-bottom: 1.5em;
+}
+#custom_colors > div {
+    
+}

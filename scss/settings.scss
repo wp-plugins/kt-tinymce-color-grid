@@ -1,0 +1,55 @@
+.button.dashicons-before::before {
+    margin: 5px 2px 0 2px;
+}
+
+#custom_colors {
+    * {
+        box-sizing: border-box;
+    }
+    display: inline-block;
+    margin-bottom: 1.5em;
+    width: 100%;
+    .color {
+        position: relative;
+        display: inline-block;
+        float: left;
+        clear: both;
+        margin-bottom: .8em;
+        input {
+            margin: 0;
+            height: 28px;
+        }
+        .name {
+            width: 220px;
+        }
+        .hex {
+            width: 100px;
+            margin-left: -3px;
+            border-left: none;
+            font-family: monospace;
+            text-align: center;
+        }
+        .picker {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 0;
+            padding: 1px;
+            .preview {
+                width: 60px;
+                height: 100%;
+            }
+        }
+        > .farbtastic {
+            position: absolute;
+            top: 27px;
+            left: 0;
+            background-color: #FFF;
+            border: 1px solid #CCC;
+            z-index: 10;
+        }
+    }
+}
+
+#add_custom_color {
+    float: left; 
+    clear: both;
+}

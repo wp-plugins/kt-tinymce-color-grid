@@ -1,0 +1,124 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kt-tinymce-color-grid\n"
+"POT-Creation-Date: 2015-06-28 18:31-0000\n"
+"PO-Revision-Date: 2015-06-28 18:32-0000\n"
+"Last-Translator: Daniel Schneider <ven.sallekha@gmail.com>\n"
+"Language-Team: \n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: ./..\n"
+
+#: ../kt-tinymce-color-grid.php:40
+msgid "Click here to choose a color from a color picker"
+msgstr "Klicke hier um eine Farbe auszuwählen"
+
+#: ../kt-tinymce-color-grid.php:46
+msgid "Remove this color"
+msgstr "Diese Farbe löschen"
+
+#: ../kt-tinymce-color-grid.php:57
+msgid "Red"
+msgstr "Rot"
+
+#: ../kt-tinymce-color-grid.php:57
+msgid "Orange"
+msgstr "Orange"
+
+#: ../kt-tinymce-color-grid.php:57
+msgid "Butter"
+msgstr "Butter"
+
+#: ../kt-tinymce-color-grid.php:58
+msgid "Yellow"
+msgstr "Gelb"
+
+#: ../kt-tinymce-color-grid.php:58
+msgid "Lime"
+msgstr "Limette"
+
+#: ../kt-tinymce-color-grid.php:58
+msgid "Grass"
+msgstr "Gras"
+
+#: ../kt-tinymce-color-grid.php:59
+msgid "Green"
+msgstr "Grün"
+
+#: ../kt-tinymce-color-grid.php:59
+msgid "Teal Sea"
+msgstr "Seegrün"
+
+#: ../kt-tinymce-color-grid.php:59
+msgid "Aquamarine"
+msgstr "Aquamarin"
+
+#: ../kt-tinymce-color-grid.php:60
+msgid "Turquoise"
+msgstr "Türkis"
+
+#: ../kt-tinymce-color-grid.php:60
+msgid "Cornflower"
+msgstr "Kornblume"
+
+#: ../kt-tinymce-color-grid.php:60
+msgid "Sky"
+msgstr "Himmelblau"
+
+#: ../kt-tinymce-color-grid.php:61
+msgid "Blue"
+msgstr "Blau"
+
+#: ../kt-tinymce-color-grid.php:61
+msgid "Violet"
+msgstr "Violett"
+
+#: ../kt-tinymce-color-grid.php:61
+msgid "Plum"
+msgstr "Pflaume"
+
+#: ../kt-tinymce-color-grid.php:62
+msgid "Magenta"
+msgstr "Magenta"
+
+#: ../kt-tinymce-color-grid.php:62
+msgid "Pink"
+msgstr "Pink"
+
+#: ../kt-tinymce-color-grid.php:62
+msgid "Raspberry"
+msgstr "Himbeere"
+
+#: ../kt-tinymce-color-grid.php:105
+msgid "I'd like to define some custom colors"
+msgstr "Ich würde gerne eigene Farben definieren"
+
+#: ../kt-tinymce-color-grid.php:166
+#, php-format
+msgid "%s (%d%% darker)"
+msgstr "%s (%d%% dunkler)"
+
+#: ../kt-tinymce-color-grid.php:168
+#, php-format
+msgid "%s (%d%% brighter)"
+msgstr "%s (%d%% heller)"
+
+#: ../kt-tinymce-color-grid.php:176
+msgid "Black"
+msgstr "Schwarz"
+
+#: ../kt-tinymce-color-grid.php:178
+msgid "White"
+msgstr "Weiß"
+
+#: ../kt-tinymce-color-grid.php:180
+#, php-format
+msgid "%d%% Gray"
+msgstr "%d%% Grau"
