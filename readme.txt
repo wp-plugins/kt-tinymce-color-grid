@@ -2,7 +2,7 @@
 Contributors: kungtiger
 Requires at least: 2.5
 Tested up to: 4.3.1
-Stable tag: 1.4
+Stable tag: 1.4.1
 Tags: bigger, chooser, color, colour, custom, editor, expanded, extended, formatting, grid, more, palette, picker, tinymce
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -53,6 +53,9 @@ If you have a question please contact me and we'll see what we can do
 
 == Changelog ==
 
+= 1.4.1 =
+Fixed a broken script
+
 = 1.4 =
 - Improved settings page
 - Improved accessibility
@@ -76,6 +79,9 @@ Fixes an error when using more than one TinyMCE
 Initial release.
 
 == Upgrade Notice ==
+
+= 1.4.1 =
+Fixed a broken script
 
 = 1.4 =
 Improves settings page and fixes security leaks
